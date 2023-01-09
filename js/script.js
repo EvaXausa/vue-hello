@@ -3,8 +3,8 @@
 console.log("Vue ok", Vue);
 const app = Vue.createApp({
   data() {
-    return { message: "Hello vue" };
+    return { firstName: "Hello vue" };
   },
 });
 
-app.amount("#root");
+app.mount("#root");
